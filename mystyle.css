@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+* {
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ h1 {
+    font-family:'Rokkitt', serif;
+    text-align: center;
+	color:#fff;
+	font-size:35px;
+    margin: 10px;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    font-family:'Rokkitt', serif;
+    font-size: 1.5em;
+	color:#FEFAE0;
+}
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+    margin-right: 10px;
+    filter: hue-rotate(180deg);
+}
+p {
+    font-family:'Rokkitt', serif;
+}
+/* Quiz Classes */
+ .quizContainer {
+    background-color: #606C38;
+    box-shadow: 1px 14px 32px 2px rgba(0,0,0,0.38);
+    border-radius: 20px;
+    width: 50%;
+    margin: 7% auto 0;
+    padding: 3%;
+    /*-moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;*/
+    position: relative;
+}
+.nextButton {
+    /*box-shadow: 3px 3px 5px #888;*/
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color:#BC6C25;
+    /*clear: both;*/
+    color:#fff;
+    font-family:'Rokkitt', serif;
+	font-weight:bold;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+    transition: all 1s ease-in-out;
+}
+
+.nextButton:hover {
+    /*box-shadow: 3px 3px 5px #888;*/
+    background-color:#DDA15E;
+    cursor: pointer;
+}
+
+.question {
+    font-family:'Rokkitt', serif;
+    font-size: 1.5em;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin: 2px auto;
+    border-radius: 6px;
+    background-color:#FEFAE0;
+    text-align: center;
+	color:#606C38;
+}
+.quizMessage {
+    background-color: peachpuff;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family:'Rokkitt', serif;
+    color: red;
+}
+.choiceList {
+    font-family: Courier, serif;
+    color: blueviolet;
+}
+
+.result {
+    width: 30%;
+    height: auto;;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+	margin-bottom:35px;
+    text-align: center;
+    font-family:'Rokkitt', serif;
+}
+/* End of Quiz Classes */
